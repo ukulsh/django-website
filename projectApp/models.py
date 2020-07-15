@@ -1,6 +1,9 @@
 from django.db import models
 
 # Create your models here.
+
+
+#aded models visitor
 class Visitor(models.Model):
     name=models.TextField(max_length=30)
     
