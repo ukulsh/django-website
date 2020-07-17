@@ -22,7 +22,8 @@ from projectApp import views
 urlpatterns = [
     path('admin', admin.site.urls),
     path('',views.contact_view),
-    path('index/',views.contact_view)
+    path('index/',views.contact_view),
+    path('index2/',views.contact_view)
     
 
 ]
